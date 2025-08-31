@@ -1,12 +1,66 @@
-# React + Vite
+🌱 Cooperativa Web – Site Cooperativa VIVA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um site institucional desenvolvido em React, com o objetivo de apresentar informações sobre uma Cooperativa fictícia, seus serviços, valores e formas de contato.
 
-Currently, two official plugins are available:
+📌 Objetivos do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Disponibilizar informações sobre a cooperativa de forma clara e acessível.
 
-## Expanding the ESLint configuration
+Apresentar missão, visão e valores da organização.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Oferecer um canal de contato para associados e interessados.
+
+Fornecer uma base flexível para futuras melhorias (como área do associado).
+
+📂 Estrutura do Projeto
+.
+├── public/           # Arquivos públicos (HTML base, ícones, etc.)
+├── src/              # Código fonte do site
+│   ├── assets/       # Imagens, ícones e estilos
+│   ├── components/   # Componentes reutilizáveis (Header, Footer, etc.)
+│   ├── pages/        # Páginas principais (Home, Sobre, Contato...)
+│   ├── routes/       # Arquivo para organizar as rotas do services
+│   ├── styles/       # Responsavel pelo reset e css da página app
+│   └── App.jsx       # Componente raiz
+│   └── main.jsx 
+├── package.json
+└── README.md
+
+⚙️ Como Rodar o Projeto
+
+Certifique-se de ter o Node.js e o npm instalados.
+Depois, dentro da pasta do projeto, execute:
+
+# Instalar dependências
+npm install
+
+# Rodar em modo de desenvolvimento
+npm run dev
+
+
+O site ficará disponível em:
+👉 http://localhost:5173
+
+🎨 Páginas
+
+Home – Apresentação da cooperativa.
+
+Blog – Local voltado a comunidade.
+
+Colaboradores – Local onde apresentamos nossas parcerias.
+
+Notícias/Eventos – Informações relevantes aos associados.
+
+Fale Conosco – Formulário e canais de atendimento.
+
+Parcerias - Local destinado a novas parcerias
+
+Serviços -  O que a cooperativa oferece.
+
+📌 Tecnologias Utilizadas
+
+React – Biblioteca principal para construção da interface.
+
+JavaScript (opcional, se usado no projeto).
+
+CSS/Styled Components/Tailwind (dependendo do estilo escolhido).
