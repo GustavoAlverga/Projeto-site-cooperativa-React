@@ -66,5 +66,6 @@ JavaScript (opcional, se usado no projeto).
 CSS/Styled Components/Tailwind (dependendo do estilo escolhido).
 
 Pré-Visualização:
-(./images/img1.png)
-(./images/img2.png)
+
+![Logo do projeto](./images/img1.png)
+![Logo do projeto](./images/img2.png)
